@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "PaymentCreatedEvent",
+  "namespace": "com.bronx92.ecommerce.payment.event",
+  "fields": [
+    {
+      "name": "checkoutCode",
+      "type": ["string"]
+    }
+  ]
+}
